@@ -1,0 +1,203 @@
+/*= ОБЩИЕ СТИЛИ
+	--------------------------------------------------------*/
+   body {
+   font-family: 'Open Sans', sans-serif;
+   color: #EFD5AD;
+   margin: 0 auto;
+   width: 100%;
+   height: 100%;
+   background-color: #162E36;
+   	}
+        
+   canvas {
+   display: block;
+   vertical-align: bottom;
+        }
+    
+    a {
+   color: #f58220;
+   font-weight: 400;
+	}
+	
+   span {
+   font-weight: 300;
+   color: #f58220;
+	}
+    
+    form {
+    margin: 0 auto;
+    padding: 50px;
+    background: #637D85;
+    border: 1px #321B1B solid;
+    border-radius: 15px;
+	}
+        
+    input {
+    border:1px solid #dedede;
+    padding:5px;
+    margin-top:3px;
+    margin-left: 15px;
+    font-size:0.9em;
+    color:#3a3a3a;
+    -moz-border-radius:5px;
+    -webkit-border-radius:5px;
+    border-radius:5px;
+	}
+        
+    input[type="submit"]{
+    color: white;
+	}
+	
+    input:focus {
+    border:1px solid #97d6eb;
+	}
+        
+/*---Футер---*/
+
+    #footer p {
+    margin: auto 0; 
+    color: #777;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 1.5;
+    
+}
+        
+ 
+    .clear{
+    clear: both;
+        }
+
+    .mesage_error{
+    color: #cc0000;
+    }
+
+    .success_message{
+    color: orange;
+    }
+
+    .block_for_messages{
+    text-align: center;
+    }
+
+    #header{
+    padding: 10px;
+    margin: 20px;
+    
+    }
+
+    #footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    }
+
+    #header h2, #footer h2{
+    text-align: center;
+    margin: 0;
+    font-size: 10px;
+    }
+
+    #auth_block {
+    width: 420px;
+    float: right;
+    text-align: center;
+   
+    }
+
+    #auth_block a {
+    display: block;
+    padding: 10px;
+    border-radius: 10px;
+    color: #fff;
+    width: 110px;
+    height: 30px;
+    text-decoration: none;
+    }
+
+    #auth_block a:hover{
+    text-decoration: underline;
+    }
+
+    #link_main {
+        float: left;
+        height: 40px;
+    }
+    #link_register {
+    background-color: #BB762C;
+    border-radius: 10px;
+    float: left;
+    }
+    
+    #link_register a:hover {
+    text-decoration: none;
+    background-color: #637D85;
+    }
+
+    #link_auth, #link_logout{
+    background-color: #637D85;
+    border-radius: 10px;
+    float: right;
+    }
+
+    #link_auth a:hover {
+    text-decoration: none;
+    background-color: #BB762C;
+    }
+    
+    #link_logout a:hover {
+    text-decoration: none;
+    background-color: #BB762C;
+    }
+    
+    #link_register a {
+    height: 20px;
+    }
+
+    #link_auth a, #link_logout a {
+    text-align: center;
+    height: 20px;
+    }
+
+    /*= КНОПКИ
+	--------------------------------------------------------*/
+	
+	.button {
+	background: #BB762C;
+	color: #fff;
+	padding: 12px;
+        border: none;
+	border-radius: 10px;
+	cursor: pointer;
+        margin-top: 25px;
+        margin-left: 0;
+	}
+	
+	.button:hover{
+	background: #162E36;
+        }	
+    
+/* Блок с формой регистрации */
+    #form_register, #form_auth{
+    width: 350px;
+    margin: 0 auto;
+    }
+
+    #form_register h2 {
+    text-align: center;
+    }
+
+    #form_auth h2 {
+    text-align: center; 
+    }
+
+    #authorized h2{
+    text-align: center;
+    } 
+
+    #particles {
+    height: 100%;
+    position: fixed;
+    }
